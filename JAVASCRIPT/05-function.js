@@ -108,7 +108,7 @@ function convToUpperCase(sentence) {
 /// EDIT HERE
 function firstNonRepeatedChar(word) {
     if (word.indexOf(' ') >= 0) {
-        console.log("kata tidak boleh dipisah")
+        return ("kata tidak boleh dipisah")
     } else {
         for (let i = 0; i < word.length; i++) {
             let hurufKeI = word.charAt(i);
@@ -120,4 +120,4 @@ function firstNonRepeatedChar(word) {
 }
 }
 
-console.log(firstNonRepeatedChar("hello world"))
+console.log(firstNonRepeatedChar("lampu merah"))
